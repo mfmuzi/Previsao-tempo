@@ -1,0 +1,32 @@
+.container-fluid {
+    margin-left:30px;
+    
+    padding: 32px 0 0;
+    font-family: Book Antiqua;
+    font-size: 24px;
+    color:rgb(8, 8, 131);
+  
+    .search-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 16px;
+      margin-bottom: 30px;
+  
+      > div {
+        width: 75%;
+  
+        > div {
+          display: flex;
+  
+          > .form-control {
+            margin-right: 20px;
+            flex-grow: 1;
+          }
+        }
+      }
+    }
+  }
+  
+  label{
+    margin-bottom: 20px;
+  }

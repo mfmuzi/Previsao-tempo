@@ -1,0 +1,37 @@
+.container-fluid {
+    height: calc(100vh - 56px);
+  
+    > .row {
+      height: 100%;
+    }
+   
+  }
+ 
+
+  .titulo  {
+    color:white;
+    margin-left: 20px;
+    font-size:40px;
+    font-family: Book Antiqua;
+  }
+  .body{
+    background-color: white;
+  }
+  .left{
+    background-color: rgb(219, 245, 241);
+    width: 14%;
+    font-size: larger;
+    font-family: Book Antiqua;
+    
+    
+  }
+.fav {display:inline-flex;
+  font-size: 24px;
+  
+  }
+  .inicio{display:inline-flex;
+    font-size: 24px;
+    margin-top:20px;
+     
+  }
+ 

@@ -1,0 +1,31 @@
+<nav class=" navbar navbar-light" style="background-color: #1d88a8;">
+  
+  <a class=" sol titulo navbar-brand">Previsão do tempo <i class=" bi bi-cloud-sun"></i></a>
+  
+  
+
+  <div id="navbar-portal-outlet"></div>
+</nav>
+
+<div class="body container-fluid">
+  <div class="row">
+    <div class="col-sm-3 left">
+      <ul class=" nav flex-column">
+        <li class=" inicio nav-item">
+          <a class="nav-link" routerLink="/"><i class="bi bi-card-list">  Início</i></a>
+        </li>
+        <li class="fav nav-item">
+          
+          <a class="nav-link" routerLink="/bookmarks">
+            <i class=" bi bi-star" viewBox="0 0 16 16">  Favoritos</i>
+          </a>
+        </li>
+      </ul>
+      
+    </div>
+
+    <div class="col-sm-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
